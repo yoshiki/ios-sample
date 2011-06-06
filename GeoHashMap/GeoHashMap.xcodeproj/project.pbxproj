@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		841AF879139BEF3A00176283 /* geohash.c in Sources */ = {isa = PBXBuildFile; fileRef = 841AF878139BEF3A00176283 /* geohash.c */; };
+		84B62273139B8AE60036D9FD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B62272139B8AE60036D9FD /* UIKit.framework */; };
+		84B62275139B8AE60036D9FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B62274139B8AE60036D9FD /* Foundation.framework */; };
+		84B62277139B8AE60036D9FD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B62276139B8AE60036D9FD /* CoreGraphics.framework */; };
+		84B6227D139B8AE60036D9FD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84B6227B139B8AE60036D9FD /* InfoPlist.strings */; };
+		84B62280139B8AE60036D9FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B6227F139B8AE60036D9FD /* main.m */; };
+		84B62283139B8AE60036D9FD /* GeoHashMapAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B62282139B8AE60036D9FD /* GeoHashMapAppDelegate.m */; };
+		84B62286139B8AE60036D9FD /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84B62284139B8AE60036D9FD /* MainWindow.xib */; };
+		84B62289139B8AE60036D9FD /* GeoHashMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B62288139B8AE60036D9FD /* GeoHashMapViewController.m */; };
+		84B6228C139B8AE60036D9FD /* GeoHashMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84B6228A139B8AE60036D9FD /* GeoHashMapViewController.xib */; };
+		84B62293139B8AE60036D9FD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B62272139B8AE60036D9FD /* UIKit.framework */; };
+		84B62294139B8AE60036D9FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B62274139B8AE60036D9FD /* Foundation.framework */; };
+		84B62295139B8AE60036D9FD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B62276139B8AE60036D9FD /* CoreGraphics.framework */; };
+		84B6229D139B8AE60036D9FD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84B6229B139B8AE60036D9FD /* InfoPlist.strings */; };
+		84B622A0139B8AE60036D9FD /* GeoHashMapTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 84B6229F139B8AE60036D9FD /* GeoHashMapTests.h */; };
+		84B622A2139B8AE60036D9FD /* GeoHashMapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B622A1139B8AE60036D9FD /* GeoHashMapTests.m */; };
+		84B622BA139BAF9B0036D9FD /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B622B9139BAF9B0036D9FD /* CoreLocation.framework */; };
+		84B622BC139BAFBB0036D9FD /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B622BB139BAFBB0036D9FD /* MapKit.framework */; };
+		84ECEB7E139C668E00730FA7 /* libgeohash.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84ECEB7D139C668E00730FA7 /* libgeohash.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84B62296139B8AE60036D9FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84B62265139B8AE60036D9FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84B6226D139B8AE60036D9FD;
+			remoteInfo = GeoHashMap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		841AF878139BEF3A00176283 /* geohash.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = geohash.c; sourceTree = "<group>"; };
+		84B6226E139B8AE60036D9FD /* GeoHashMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoHashMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84B62272139B8AE60036D9FD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		84B62274139B8AE60036D9FD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		84B62276139B8AE60036D9FD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		84B6227A139B8AE60036D9FD /* GeoHashMap-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GeoHashMap-Info.plist"; sourceTree = "<group>"; };
+		84B6227C139B8AE60036D9FD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		84B6227E139B8AE60036D9FD /* GeoHashMap-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GeoHashMap-Prefix.pch"; sourceTree = "<group>"; };
+		84B6227F139B8AE60036D9FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84B62281139B8AE60036D9FD /* GeoHashMapAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeoHashMapAppDelegate.h; sourceTree = "<group>"; };
+		84B62282139B8AE60036D9FD /* GeoHashMapAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeoHashMapAppDelegate.m; sourceTree = "<group>"; };
+		84B62285139B8AE60036D9FD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		84B62287139B8AE60036D9FD /* GeoHashMapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeoHashMapViewController.h; sourceTree = "<group>"; };
+		84B62288139B8AE60036D9FD /* GeoHashMapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeoHashMapViewController.m; sourceTree = "<group>"; };
+		84B6228B139B8AE60036D9FD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/GeoHashMapViewController.xib; sourceTree = "<group>"; };
+		84B62292139B8AE60036D9FD /* GeoHashMapTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeoHashMapTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84B6229A139B8AE60036D9FD /* GeoHashMapTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GeoHashMapTests-Info.plist"; sourceTree = "<group>"; };
+		84B6229C139B8AE60036D9FD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		84B6229E139B8AE60036D9FD /* GeoHashMapTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GeoHashMapTests-Prefix.pch"; sourceTree = "<group>"; };
+		84B6229F139B8AE60036D9FD /* GeoHashMapTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeoHashMapTests.h; sourceTree = "<group>"; };
+		84B622A1139B8AE60036D9FD /* GeoHashMapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeoHashMapTests.m; sourceTree = "<group>"; };
+		84B622B9139BAF9B0036D9FD /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		84B622BB139BAFBB0036D9FD /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		84B622DD139BCA620036D9FD /* geohash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = geohash.h; sourceTree = "<group>"; };
+		84ECEB7D139C668E00730FA7 /* libgeohash.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgeohash.a; path = lib/libgeohash.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84B6226B139B8AE60036D9FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84ECEB7E139C668E00730FA7 /* libgeohash.a in Frameworks */,
+				84B622BC139BAFBB0036D9FD /* MapKit.framework in Frameworks */,
+				84B622BA139BAF9B0036D9FD /* CoreLocation.framework in Frameworks */,
+				84B62273139B8AE60036D9FD /* UIKit.framework in Frameworks */,
+				84B62275139B8AE60036D9FD /* Foundation.framework in Frameworks */,
+				84B62277139B8AE60036D9FD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B6228E139B8AE60036D9FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B62293139B8AE60036D9FD /* UIKit.framework in Frameworks */,
+				84B62294139B8AE60036D9FD /* Foundation.framework in Frameworks */,
+				84B62295139B8AE60036D9FD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84B62263139B8AE60036D9FD = {
+			isa = PBXGroup;
+			children = (
+				84B62278139B8AE60036D9FD /* GeoHashMap */,
+				84B62298139B8AE60036D9FD /* GeoHashMapTests */,
+				84B62271139B8AE60036D9FD /* Frameworks */,
+				84B6226F139B8AE60036D9FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84B6226F139B8AE60036D9FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84B6226E139B8AE60036D9FD /* GeoHashMap.app */,
+				84B62292139B8AE60036D9FD /* GeoHashMapTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84B62271139B8AE60036D9FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84ECEB7D139C668E00730FA7 /* libgeohash.a */,
+				84B622BB139BAFBB0036D9FD /* MapKit.framework */,
+				84B622B9139BAF9B0036D9FD /* CoreLocation.framework */,
+				84B62272139B8AE60036D9FD /* UIKit.framework */,
+				84B62274139B8AE60036D9FD /* Foundation.framework */,
+				84B62276139B8AE60036D9FD /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84B62278139B8AE60036D9FD /* GeoHashMap */ = {
+			isa = PBXGroup;
+			children = (
+				84B62279139B8AE60036D9FD /* Supporting Files */,
+				84B62281139B8AE60036D9FD /* GeoHashMapAppDelegate.h */,
+				84B62282139B8AE60036D9FD /* GeoHashMapAppDelegate.m */,
+				84B62284139B8AE60036D9FD /* MainWindow.xib */,
+				84B62287139B8AE60036D9FD /* GeoHashMapViewController.h */,
+				84B62288139B8AE60036D9FD /* GeoHashMapViewController.m */,
+				84B6228A139B8AE60036D9FD /* GeoHashMapViewController.xib */,
+				84B622DD139BCA620036D9FD /* geohash.h */,
+				841AF878139BEF3A00176283 /* geohash.c */,
+			);
+			path = GeoHashMap;
+			sourceTree = "<group>";
+		};
+		84B62279139B8AE60036D9FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84B6227A139B8AE60036D9FD /* GeoHashMap-Info.plist */,
+				84B6227B139B8AE60036D9FD /* InfoPlist.strings */,
+				84B6227E139B8AE60036D9FD /* GeoHashMap-Prefix.pch */,
+				84B6227F139B8AE60036D9FD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84B62298139B8AE60036D9FD /* GeoHashMapTests */ = {
+			isa = PBXGroup;
+			children = (
+				84B6229F139B8AE60036D9FD /* GeoHashMapTests.h */,
+				84B622A1139B8AE60036D9FD /* GeoHashMapTests.m */,
+				84B62299139B8AE60036D9FD /* Supporting Files */,
+			);
+			path = GeoHashMapTests;
+			sourceTree = "<group>";
+		};
+		84B62299139B8AE60036D9FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84B6229A139B8AE60036D9FD /* GeoHashMapTests-Info.plist */,
+				84B6229B139B8AE60036D9FD /* InfoPlist.strings */,
+				84B6229E139B8AE60036D9FD /* GeoHashMapTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84B6226D139B8AE60036D9FD /* GeoHashMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84B622A5139B8AE60036D9FD /* Build configuration list for PBXNativeTarget "GeoHashMap" */;
+			buildPhases = (
+				84B6226A139B8AE60036D9FD /* Sources */,
+				84B6226B139B8AE60036D9FD /* Frameworks */,
+				84B6226C139B8AE60036D9FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeoHashMap;
+			productName = GeoHashMap;
+			productReference = 84B6226E139B8AE60036D9FD /* GeoHashMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84B62291139B8AE60036D9FD /* GeoHashMapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84B622A8139B8AE60036D9FD /* Build configuration list for PBXNativeTarget "GeoHashMapTests" */;
+			buildPhases = (
+				84B6228D139B8AE60036D9FD /* Sources */,
+				84B6228E139B8AE60036D9FD /* Frameworks */,
+				84B6228F139B8AE60036D9FD /* Resources */,
+				84B62290139B8AE60036D9FD /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84B62297139B8AE60036D9FD /* PBXTargetDependency */,
+			);
+			name = GeoHashMapTests;
+			productName = GeoHashMapTests;
+			productReference = 84B62292139B8AE60036D9FD /* GeoHashMapTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84B62265139B8AE60036D9FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "";
+			};
+			buildConfigurationList = 84B62268139B8AE60036D9FD /* Build configuration list for PBXProject "GeoHashMap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 84B62263139B8AE60036D9FD;
+			productRefGroup = 84B6226F139B8AE60036D9FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84B6226D139B8AE60036D9FD /* GeoHashMap */,
+				84B62291139B8AE60036D9FD /* GeoHashMapTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84B6226C139B8AE60036D9FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B6227D139B8AE60036D9FD /* InfoPlist.strings in Resources */,
+				84B62286139B8AE60036D9FD /* MainWindow.xib in Resources */,
+				84B6228C139B8AE60036D9FD /* GeoHashMapViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B6228F139B8AE60036D9FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B6229D139B8AE60036D9FD /* InfoPlist.strings in Resources */,
+				84B622A0139B8AE60036D9FD /* GeoHashMapTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		84B62290139B8AE60036D9FD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84B6226A139B8AE60036D9FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B62280139B8AE60036D9FD /* main.m in Sources */,
+				84B62283139B8AE60036D9FD /* GeoHashMapAppDelegate.m in Sources */,
+				84B62289139B8AE60036D9FD /* GeoHashMapViewController.m in Sources */,
+				841AF879139BEF3A00176283 /* geohash.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B6228D139B8AE60036D9FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B622A2139B8AE60036D9FD /* GeoHashMapTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84B62297139B8AE60036D9FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84B6226D139B8AE60036D9FD /* GeoHashMap */;
+			targetProxy = 84B62296139B8AE60036D9FD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84B6227B139B8AE60036D9FD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84B6227C139B8AE60036D9FD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		84B62284139B8AE60036D9FD /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84B62285139B8AE60036D9FD /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		84B6228A139B8AE60036D9FD /* GeoHashMapViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84B6228B139B8AE60036D9FD /* en */,
+			);
+			name = GeoHashMapViewController.xib;
+			sourceTree = "<group>";
+		};
+		84B6229B139B8AE60036D9FD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84B6229C139B8AE60036D9FD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84B622A3139B8AE60036D9FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84B622A4139B8AE60036D9FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		84B622A6139B8AE60036D9FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GeoHashMap/GeoHashMap-Prefix.pch";
+				INFOPLIST_FILE = "GeoHashMap/GeoHashMap-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/lib\"",
+				);
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "-lgeohash";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		84B622A7139B8AE60036D9FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GeoHashMap/GeoHashMap-Prefix.pch";
+				INFOPLIST_FILE = "GeoHashMap/GeoHashMap-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/lib\"",
+				);
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = "-lgeohash";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		84B622A9139B8AE60036D9FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GeoHashMap.app/GeoHashMap";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GeoHashMapTests/GeoHashMapTests-Prefix.pch";
+				INFOPLIST_FILE = "GeoHashMapTests/GeoHashMapTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		84B622AA139B8AE60036D9FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GeoHashMap.app/GeoHashMap";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GeoHashMapTests/GeoHashMapTests-Prefix.pch";
+				INFOPLIST_FILE = "GeoHashMapTests/GeoHashMapTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84B62268139B8AE60036D9FD /* Build configuration list for PBXProject "GeoHashMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84B622A3139B8AE60036D9FD /* Debug */,
+				84B622A4139B8AE60036D9FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84B622A5139B8AE60036D9FD /* Build configuration list for PBXNativeTarget "GeoHashMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84B622A6139B8AE60036D9FD /* Debug */,
+				84B622A7139B8AE60036D9FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84B622A8139B8AE60036D9FD /* Build configuration list for PBXNativeTarget "GeoHashMapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84B622A9139B8AE60036D9FD /* Debug */,
+				84B622AA139B8AE60036D9FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84B62265139B8AE60036D9FD /* Project object */;
+}
