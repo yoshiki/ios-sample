@@ -1,0 +1,278 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84A36279153C682D00FBC748 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A36278153C682D00FBC748 /* UIKit.framework */; };
+		84A3627B153C682D00FBC748 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A3627A153C682D00FBC748 /* Foundation.framework */; };
+		84A3627D153C682D00FBC748 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A3627C153C682D00FBC748 /* CoreGraphics.framework */; };
+		84A36283153C682D00FBC748 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84A36281153C682D00FBC748 /* InfoPlist.strings */; };
+		84A36285153C682D00FBC748 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A36284153C682D00FBC748 /* main.m */; };
+		84A36289153C682D00FBC748 /* F8SlideViewAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A36288153C682D00FBC748 /* F8SlideViewAppDelegate.m */; };
+		84A36291153C684B00FBC748 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A36290153C684B00FBC748 /* TableViewController.m */; };
+		84A36294153C697100FBC748 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A36293153C697100FBC748 /* DetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		84A36274153C682D00FBC748 /* F8SlideView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = F8SlideView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84A36278153C682D00FBC748 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		84A3627A153C682D00FBC748 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		84A3627C153C682D00FBC748 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		84A36280153C682D00FBC748 /* F8SlideView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "F8SlideView-Info.plist"; sourceTree = "<group>"; };
+		84A36282153C682D00FBC748 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		84A36284153C682D00FBC748 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84A36286153C682D00FBC748 /* F8SlideView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "F8SlideView-Prefix.pch"; sourceTree = "<group>"; };
+		84A36287153C682D00FBC748 /* F8SlideViewAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = F8SlideViewAppDelegate.h; sourceTree = "<group>"; };
+		84A36288153C682D00FBC748 /* F8SlideViewAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = F8SlideViewAppDelegate.m; sourceTree = "<group>"; };
+		84A3628F153C684B00FBC748 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		84A36290153C684B00FBC748 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		84A36292153C697100FBC748 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		84A36293153C697100FBC748 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84A36271153C682D00FBC748 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A36279153C682D00FBC748 /* UIKit.framework in Frameworks */,
+				84A3627B153C682D00FBC748 /* Foundation.framework in Frameworks */,
+				84A3627D153C682D00FBC748 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84A36269153C682D00FBC748 = {
+			isa = PBXGroup;
+			children = (
+				84A3627E153C682D00FBC748 /* F8SlideView */,
+				84A36277153C682D00FBC748 /* Frameworks */,
+				84A36275153C682D00FBC748 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84A36275153C682D00FBC748 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84A36274153C682D00FBC748 /* F8SlideView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84A36277153C682D00FBC748 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84A36278153C682D00FBC748 /* UIKit.framework */,
+				84A3627A153C682D00FBC748 /* Foundation.framework */,
+				84A3627C153C682D00FBC748 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84A3627E153C682D00FBC748 /* F8SlideView */ = {
+			isa = PBXGroup;
+			children = (
+				84A3627F153C682D00FBC748 /* Supporting Files */,
+				84A36287153C682D00FBC748 /* F8SlideViewAppDelegate.h */,
+				84A36288153C682D00FBC748 /* F8SlideViewAppDelegate.m */,
+				84A3628F153C684B00FBC748 /* TableViewController.h */,
+				84A36290153C684B00FBC748 /* TableViewController.m */,
+				84A36292153C697100FBC748 /* DetailViewController.h */,
+				84A36293153C697100FBC748 /* DetailViewController.m */,
+			);
+			path = F8SlideView;
+			sourceTree = "<group>";
+		};
+		84A3627F153C682D00FBC748 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84A36280153C682D00FBC748 /* F8SlideView-Info.plist */,
+				84A36281153C682D00FBC748 /* InfoPlist.strings */,
+				84A36284153C682D00FBC748 /* main.m */,
+				84A36286153C682D00FBC748 /* F8SlideView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84A36273153C682D00FBC748 /* F8SlideView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84A3628C153C682D00FBC748 /* Build configuration list for PBXNativeTarget "F8SlideView" */;
+			buildPhases = (
+				84A36270153C682D00FBC748 /* Sources */,
+				84A36271153C682D00FBC748 /* Frameworks */,
+				84A36272153C682D00FBC748 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = F8SlideView;
+			productName = F8SlideView;
+			productReference = 84A36274153C682D00FBC748 /* F8SlideView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84A3626B153C682D00FBC748 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = F8SlideView;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 84A3626E153C682D00FBC748 /* Build configuration list for PBXProject "F8SlideView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 84A36269153C682D00FBC748;
+			productRefGroup = 84A36275153C682D00FBC748 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84A36273153C682D00FBC748 /* F8SlideView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84A36272153C682D00FBC748 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A36283153C682D00FBC748 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84A36270153C682D00FBC748 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A36285153C682D00FBC748 /* main.m in Sources */,
+				84A36289153C682D00FBC748 /* F8SlideViewAppDelegate.m in Sources */,
+				84A36291153C684B00FBC748 /* TableViewController.m in Sources */,
+				84A36294153C697100FBC748 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		84A36281153C682D00FBC748 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84A36282153C682D00FBC748 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84A3628A153C682D00FBC748 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84A3628B153C682D00FBC748 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84A3628D153C682D00FBC748 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "F8SlideView/F8SlideView-Prefix.pch";
+				INFOPLIST_FILE = "F8SlideView/F8SlideView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		84A3628E153C682D00FBC748 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "F8SlideView/F8SlideView-Prefix.pch";
+				INFOPLIST_FILE = "F8SlideView/F8SlideView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84A3626E153C682D00FBC748 /* Build configuration list for PBXProject "F8SlideView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84A3628A153C682D00FBC748 /* Debug */,
+				84A3628B153C682D00FBC748 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84A3628C153C682D00FBC748 /* Build configuration list for PBXNativeTarget "F8SlideView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84A3628D153C682D00FBC748 /* Debug */,
+				84A3628E153C682D00FBC748 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84A3626B153C682D00FBC748 /* Project object */;
+}
